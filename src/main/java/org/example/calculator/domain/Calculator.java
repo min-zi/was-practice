@@ -1,2 +1,19 @@
-package org.example.calculator.domain;public class Calculator {
+package org.example.calculator.domain;
+
+import org.example.calculator.tobe.AdditionOperator;
+import org.example.calculator.tobe.ArithmeticOperator;
+import org.example.calculator.tobe.DivisionOperator;
+import org.example.calculator.tobe.SubtractionOperator;
+
+import java.util.List;
+
+public class Calculator {
+    private static final List<ArithmeticOperator> arithmeticOperators = List.of(new AdditionOperator(), new SubtractionOperator(), new DivisionOperator());
+    public static int calculator(PositiveNumber operand1, String operator, PositiveNumber operand2) {
+        return arithmeticOperators.stream()
+                .filter(arithmeticOperator -> arithmeticOperator.supports(operator))
+                .map(arithmeticOperator -> arithmeticOperator.calculate(operand1, operand2))
+                .findFirst()
+                .orElseThrow(() -> new IllegalArgumentException("올바른 사칙연산이 아닙니다."));
+    }
 }
