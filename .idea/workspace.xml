@@ -4,29 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5cf448d-c582-430d-966f-038520433443" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ClientRequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="f5cf448d-c582-430d-966f-038520433443" name="Changes" comment="계산기 웹 애플리케이션">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/counter/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/counter/RaceConditionDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CustomWebApplicationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QueryString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QueryStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QueryStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RequestLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/RequestLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/EnumArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/PositiveNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/domain/PositiveNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/AdditionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/AdditionOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/ArithmeticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/DivisionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/DivisionOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/calculator/tobe/SubtractionOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/QueryStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/QueryStringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/QueryStringsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RequestLineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/RequestLineTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +55,26 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.test | #1">
+  <component name="RunManager" selected="Application.RaceConditionDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="was-practice.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RaceConditionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.counter.RaceConditionDemo" />
+      <module name="was-practice.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.counter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,29 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RequestLineTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="was-practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RequestLineTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RaceConditionDemo" />
         <item itemvalue="HTTP Request.test | #1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QueryStringsTest.createTest" />
         <item itemvalue="JUnit.QueryStringTest.createTest" />
-        <item itemvalue="JUnit.RequestLineTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -160,8 +138,16 @@
       <workItem from="1691486459503" duration="6887000" />
       <workItem from="1691569777119" duration="11318000" />
       <workItem from="1691598486360" duration="110000" />
-      <workItem from="1691629079762" duration="9646000" />
+      <workItem from="1691629079762" duration="14070000" />
     </task>
+    <task id="LOCAL-00001" summary="계산기 웹 애플리케이션">
+      <created>1691652248588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691652248588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +163,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="계산기 웹 애플리케이션" />
+    <option name="LAST_COMMIT_MESSAGE" value="계산기 웹 애플리케이션" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
